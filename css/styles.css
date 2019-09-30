@@ -1,0 +1,15 @@
+
+ol{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+li{
+    margin-top: 2em;
+    
+}
+#teamM{
+    display: flex;
+    justify-content: space-evenly;
+}

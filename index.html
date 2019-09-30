@@ -9,13 +9,27 @@
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
     <title>team</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <input type="text" class="teamNUM" onkeyup="teamLead()" >
+  <div>
+    Number of Group: <input type="text" class="teamNUM" onkeyup="teamLead()"  >
+  </div>
+  <br>
+<div>
+  members: <input type="text" class="members" id="members" >
+  <button onclick="groupList()">share members</button>
 
-    <ol class="teamUL">
+</div>
+    <ol class="teamUL" id="foo">
       
-    </ol></li>
+    </ol>
+    <ul id="teamM">
+      <li></li>
+
+    </ul>
+
+
     
     <script src="./js/script.js"></script>
 </body>
