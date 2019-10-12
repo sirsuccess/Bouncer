@@ -22,3 +22,20 @@ li{
     width: 50%;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 780px) {
+    
+      .form{
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+  }
+@media screen and (max-width: 480px) {
+    
+      .form{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+  }
