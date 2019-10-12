@@ -80,6 +80,6 @@ groupList = () => {
       break;
     }
   }
-
+$(".card").show()
   // let arr =["amani", "kanu", "adam", "joel", "peter", "alex"]
 };
