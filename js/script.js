@@ -56,7 +56,8 @@ groupList = () => {
   $(".headItem").remove("");
   teamNUM = $(".teamNUM");
   if (!(parseInt(teamNUM.val()) > 0)) {
-    return alert("invalid team number");
+    alert("invalid team number");
+    return
   }
 
   randomness();
