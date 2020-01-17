@@ -1,0 +1,30 @@
+.latestHead{
+    text-align: center;
+}
+.LatestNews{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 5em auto;
+    font-size: 13px;
+}
+.firstNews{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+}
+.firstNews img{
+    /* width: 10px; */
+}
+.latestText{
+    margin-left: 0.5em;
+}
+.latestDate{
+    color:#C1C8CE
+}
+.latestName{
+    color:#22262A;
+    font-weight: 800;
+    margin: 0.5em 0;
+}

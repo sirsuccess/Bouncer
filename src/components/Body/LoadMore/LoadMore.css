@@ -1,0 +1,42 @@
+.LoadMore{
+
+}
+.LoadMore h3{
+    border-bottom: 2px solid #33A0FF;
+    color: #33A0FF;
+    margin: 5em auto;
+    width: 115px;
+}
+.blueBg{
+    background-color: #2E90E5;
+    color: #fff;
+    margin-top: 2rem;
+    
+}
+.shopNow{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    height: 450px;
+}
+.rightShopNow img{
+    height: 550px;
+    position: relative;
+    top: -100px;
+}
+.phoneName{
+    font-size: 40px;
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+}
+.shop{
+    background-color: #2E90E5;
+    border: none;
+    color: #fff;
+    text-align: left;
+    padding: 0;
+    border-bottom: 2px solid #fff;
+    margin-top: 4em;
+    cursor: pointer;
+}

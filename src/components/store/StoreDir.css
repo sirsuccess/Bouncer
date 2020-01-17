@@ -1,0 +1,14 @@
+.StoreDir{
+    display: flex;
+    justify-content: center;
+    background-color: #F6F7F8;
+    font-size: 20px;
+    text-align: center;
+    padding: 0.5em 0;
+}
+.accDir,.itemDir,.homeDir{
+    margin: 0 0.5em;
+}
+.accDir, .homeDir{
+    color: #33A0FF;
+}

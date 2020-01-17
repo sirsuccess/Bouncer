@@ -1,0 +1,18 @@
+.bestSeller{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
+.bestSeller ul{
+display: flex;
+justify-content: space-around;
+}
+.bestSeller li:hover{
+    color:#33A0FF;
+    border-bottom: 2px solid #33A0FF;
+}
+.laptopLine1{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+}

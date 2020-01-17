@@ -1,0 +1,17 @@
+.Toggle{
+    background-color: #F6F7F8;
+    width: 100%;
+    margin-top: 1em;
+    padding: 10px 20px;
+}
+.itemSide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+select{
+    background-color: #F6F7F8;
+    border: none;
+}

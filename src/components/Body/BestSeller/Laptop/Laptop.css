@@ -1,0 +1,142 @@
+.Laptop{
+    border: 1px solid gray;
+    width: 180px;
+    padding: 0.5em;
+    border-radius: 3px;
+}
+.Laptop:hover .hoverBg{
+    background-color: rgba(182, 179, 179, 0.5);
+}
+.Laptop:hover .hoverBox span{
+    opacity: 1;
+}
+.Laptop:hover img{
+    opacity: 0.1;
+}
+.hoverBg{
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 5px;
+    height: 150px;
+    
+    /* display: none; */
+}
+.hot{
+ background-color: #FF4858;
+ color: #fff;
+ width: 50px;
+ border-radius: 3px;
+ text-align: center;
+ 
+}
+.fa-star{
+    color: #FFC600;
+}
+.fa-star:last-child{
+    color: rgb(182, 180, 180);
+}
+.Laptop img{
+width: 150px;
+margin: 2em 0;
+position: relative;
+top: -100px;
+z-index: -2;
+/* display: none; */
+}
+
+.fa-heart, .fa-cart-plus{
+    font-size: 20px;
+    color: #fff;
+    position: relative;
+    top: 5px;
+    font-weight: bolder;
+}
+.hoverBox .circle:hover{
+    transform: scale(1.2);
+}
+.hoverBox{
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    /* display: none; */
+}
+.hoverBox .circle{
+    border-radius: 50% ;
+    border: 1px solid #33A0FF;
+    background-color: #33A0FF;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    /* margin-top: 3em; */
+    /* background-color: green; */
+}
+.hoverBox span{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    margin-left: 2em;
+    z-index: 20;
+    margin-top: 2em;
+    margin-left: 3em;
+    opacity: 0;
+}
+.laptopName{
+    margin: 1em 0;
+    font-weight: 700;
+    font-size: 15px;
+    /* background-color: #FF4858; */
+}
+.price{
+    padding: 0.5em 0;
+    font-weight: 700;
+    font-size: 15px;
+}
+.newPrice{
+    color: #FF4858;
+    font-weight: 800;
+}
+.oldPrice{
+    color: #C1C8CE;
+    font-weight: 800;
+    text-decoration: line-through;
+    /* text-decoration: line-through; */
+}
+
+
+
+.LaptopList{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.textsect{
+    font-size: 10px;
+}
+.addToCartSec,.addToCartSec .fa-cart-plus, .addToCartSec .fa-heart{
+    color: #33A0FF;
+}
+.reviewSect,.addToCartSec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+.addToCartSec{
+    width: 150px;
+margin-top: 1em;
+}
+.love,.addCart{
+ background-color: rgb(187, 216, 241);
+ padding: 0.5em;
+ padding-bottom: 1em;
+ border-radius: 2px;
+}
+.reviews{
+    color: #C1C8CE;
+}
+.submitReview{
+    color: #33A0FF;
+}

@@ -1,0 +1,120 @@
+ 
+ .model {
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 5000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: red;
+    display: none; */
+  }
+  .newsLetter{
+      display: flex;
+      justify-content: space-between;
+      background-color: #fff;
+      border-radius: 5px;
+      width: 600px;
+      height: 400px;
+      /* overflow: hidden; */
+  }
+  .newsText{
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+      /* background-color: green; */
+  }
+  .cancelModel{
+      color: #fff;
+      text-align: center;
+      background-color: #000;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      position: relative;
+      top: -20px;
+      right: -110px;;
+      padding-top: 0.3em;
+      cursor: pointer;
+  }
+  .newsImg{
+      
+      width: 40%;
+      margin-right: -30px;
+      margin-bottom: -4px;
+      object-fit: cover;
+  }
+  .newsImg img{
+    height: 400px;
+  }
+  .inputSection{
+      /* width: 400px; */
+      display: flex;
+      justify-content: center;
+      margin-top: 5em;
+      margin-bottom: 3em;
+  }
+  .subscribe{
+      background-color: #33A0FF;
+      color: #fff;
+      padding: 0.5em;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      cursor: pointer;
+      font-size: 18px;
+  }
+  .email{
+      padding:0 1em;
+      width: 300px;
+      border: 1px solid rgb(151, 151, 151);
+      border-right: none;
+  }
+  input[type="checkbox"]{
+  margin-right: 1em;
+}
+
+
+   /* .model .editForm {
+    padding: 50px;
+    width: 50%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+   .model .editForm .textEdit {
+    padding: 12px 2px;
+  }
+  
+   .model .editForm #btnEdit {
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #008cba;
+  }
+  
+   .model .editForm #btnCancel {
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #008cba;
+    background-color: red;
+  } */

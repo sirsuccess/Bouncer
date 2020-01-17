@@ -1,0 +1,40 @@
+.Carousel{
+    background: transparent linear-gradient(63deg, #FF4858 0%, #8F65FF 100%) 0% 0% no-repeat padding-box;
+    /* height: 500px; */
+    width: 100%;
+    
+}
+.innerCarousel{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.innerCarousel img{
+    height: 450px;
+    /* z-index: -100; */
+}
+.carouLeft{
+    color: #fff;
+}
+.textHead{
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 1em;
+}
+.more{
+    font-weight: 400;
+    font-size: 20px;
+    width: 50px;
+    border-bottom: 2px solid white;
+    margin-top: 1em;
+}
+.arrow{
+    width: 20px;
+    margin-right: 2rem;
+}
+.arrowRight{
+    width: 20px;
+    transform: rotate(180deg);
+    margin-left: 2rem;
+}

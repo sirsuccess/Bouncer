@@ -1,0 +1,15 @@
+.Services{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5em;
+}
+.firstService{
+    width: 25%;
+}
+.serviceName{
+    font-size: 24px;
+    margin: 1em 0;
+}

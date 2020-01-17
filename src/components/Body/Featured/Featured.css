@@ -1,0 +1,18 @@
+.Featured{
+width: 60%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+}
+h2{
+    text-align: center;
+}
+.firstFeatured{
+    display: flex;
+    width: 30%;
+    margin-top: 2em;
+}
+.firstFeatured img{
+    width: 150px;
+    height: 120px;
+}

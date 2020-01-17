@@ -1,0 +1,15 @@
+.Pagenation{
+    background-color: #FAFAFB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.page{
+    padding: 1em;
+    
+}
+.page:hover,.page:nth-child(3){
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
