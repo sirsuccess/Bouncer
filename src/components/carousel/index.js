@@ -2,8 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import Wrapper from "./style";
 import MaskGroup1 from "./assets/MaskGroup1.png";
-import MaskGroup2 from "./assets/feature1.png";
-import MaskGroup3 from "./assets/oculus.png";
+import MaskGroup2 from "./assets/MaskGroup1.png";
+import MaskGroup3 from "./assets/MaskGroup1.png";
 import Text from "../text";
 
 const LandingPageCarousel = ({ products }) => {
@@ -62,13 +62,13 @@ LandingPageCarousel.defaultProps = {
       productName: "Headset",
       productSummary:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
-      productImg: MaskGroup2
+      productImg: MaskGroup1
     },
     {
-      productName: "Google 3D",
+      productName: "iPhone X",
       productSummary:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.",
-      productImg: MaskGroup3
+      productImg: MaskGroup1
     }
   ]
 };
